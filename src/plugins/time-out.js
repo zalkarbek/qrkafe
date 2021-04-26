@@ -1,4 +1,3 @@
-
 import TimeOut from '@/class/TimeOut';
 
 const timer = new TimeOut();

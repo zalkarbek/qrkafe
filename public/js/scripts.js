@@ -3,8 +3,8 @@
 !function (NioApp, $) {
   "use strict";
 
-  NioApp.Package.name = "DashLite";
-  NioApp.Package.version = "2.3";
+  NioApp.Package.name = "QRKafe";
+  NioApp.Package.version = "1.0";
   var $win = $(window),
       $body = $('body'),
       $doc = $(document),
@@ -137,7 +137,7 @@
 
   NioApp.PassSwitch = function () {
     NioApp.Passcode('.passcode-switch');
-  }; // Toastr Message @v1.0 
+  }; // Toastr Message @v1.0
 
 
   NioApp.Toast = function (msg, ttype, opt) {
@@ -689,7 +689,7 @@
 
   NioApp.Slider.init = function () {
     NioApp.Slick('.slider-init');
-  }; // Number Spinner 
+  }; // Number Spinner
 
 
   NioApp.NumberSpinner = function (elm, opt) {
