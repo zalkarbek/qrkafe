@@ -161,7 +161,7 @@
   );
   $shadow-color: adjust-color(
     $bg-color,
-    $lightness: color-yiq-lightness($bg-color, 15%)
+    $lightness: color-yiq-lightness($bg-color, 10%)
   );
   $focus-bg-color: adjust-color(
     $bg-color,

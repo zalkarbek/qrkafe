@@ -116,9 +116,9 @@ $kbc-border-color: adjust-color($kbc-bg-color, $lightness: -10%) !default;
 $kbc-shadow-color: adjust-color($kbc-bg-color, $lightness: -30%) !default;
 $kbc-font-color: color-yiq($kbc-bg-color) !default;
 
-$kbc-border-radius: 0.25rem !default;
-$kbc-border-radius-lg: 0.3rem !default;
-$kbc-border-radius-sm: 0.2rem !default;
+$kbc-border-radius: 2.5rem !default;
+$kbc-border-radius-lg: 2.3rem !default;
+$kbc-border-radius-sm: 2.2rem !default;
 
 // Typography
 //

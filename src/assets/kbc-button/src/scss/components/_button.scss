@@ -38,15 +38,16 @@
   transform: translate3d(0, 0, #{$kbc-btn-depth}px);
   transform-style: preserve-3d;
   transition: all 0.25s cubic-bezier(0.2, 1, 0.2, 1);
+  color: #000!important;
 
   &.no-container {
     &::after {
-      border-color: transparent;
+      // border-color: transparent;
     }
   }
 
   &::after {
-    border-style: solid;
+    // border-style: solid;
     box-sizing: content-box;
     content: '';
     display: block;

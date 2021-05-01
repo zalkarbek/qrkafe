@@ -1,7 +1,11 @@
 <template>
-  <div class="nk-wrap nk-wrap-nosidebar">
-    <div class="nk-content ">
-      <router-view></router-view>
+  <div class="nk-app-root">
+    <div class="nk-main">
+      <div class="nk-wrap nk-wrap-nosidebar">
+        <div class="nk-content ">
+          <router-view></router-view>
+        </div>
+      </div>
     </div>
   </div>
 </template>

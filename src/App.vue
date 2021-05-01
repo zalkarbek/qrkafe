@@ -1,13 +1,12 @@
 <template>
-  <div id="app" class="nk-app-root">
-    <div class="nk-main">
-      <router-view></router-view>
-    </div>
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
+  components: {},
   async mounted() {
     await this.$timer.pause(500)
     await this.$loadScript('/js/bundle.js')
